@@ -1,0 +1,49 @@
+.singlePost{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 30%;
+    /* border: 1px solid gray; */
+    background-color: rgb(134, 226, 226);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.singlePost img{
+    width: 90%;
+    height: 50%;
+    border-radius: 8px;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+}
+
+.postTitle{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.singlePostTitle{
+    font-size: 30px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.desc{
+    margin-top: 10px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

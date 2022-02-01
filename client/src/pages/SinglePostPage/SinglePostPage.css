@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+.singlePostPage {
+  margin: 100px 0 20px;
+  
+  /* margin-top: 90px; */
+  min-height: calc(100vh - 60px - 180px);  
+  display: flex;
+  font-family: "Lato", sans-serif;
+  /* overflow-x: hidden; */
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  width: 80%;
+}
+
+.left {
+  flex: 6;
+}
+
+.contentHeader {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-left: 100px;
+}
+
+.contentHeader span {
+  font-size: 40px;  
+  margin-top: 40px;
+}
+
+.delEdit {  
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  display: flex;
+  
+}
+
+.delEdit i {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.delEdit i:first-child {
+  color: rgb(40, 214, 214);
+}
+.delEdit i:last-child {
+  color: tomato;
+}
+
+.author {
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.contentDesc {
+  padding: 0 100px;
+  font-size: 20px;
+}
+
+.contentDesc p::first-letter {
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.right {
+  flex: 3;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 1s all ease;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.updateForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.updateForm h1 {
+  font-size: 40px;
+}
+
+.updateForm input {
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 30px;
+  margin: 10px;
+}
+.updateForm input:focus {
+  outline: none;
+}
+.updateForm textarea {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.updateForm textarea:focus {
+  outline: none;
+}
+.updateForm button {
+  font-size: 20px;
+  background-color: teal;
+  color: white;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

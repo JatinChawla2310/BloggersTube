@@ -1,0 +1,89 @@
+.settings {
+  min-height: calc(100vh - 60px - 180px);
+  margin: 90px 0 20px;
+  display: flex;
+  padding: 10px 20px;
+}
+
+.settingsLeft {
+  flex: 9;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsRight {
+  flex: 3;
+}
+
+.setingsLeftHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: tomato;
+}
+
+.setingsLeftHeader h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.setingsLeftHeader p {
+  cursor: pointer;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsForm label {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.settingsForm input {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.settingsForm input:focus {
+  outline: none;
+}
+
+.profile {
+  display: flex;
+}
+
+.profileIcon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #ff6347;
+  border-radius: 50%;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.profile img {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.updateButton {
+  align-self: center;
+  background-color: teal;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
